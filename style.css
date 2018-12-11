@@ -1,0 +1,111 @@
+#face { 
+    border-radius: 50%;
+    padding:25px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arvo';
+    font-size: 22px;
+    background-color: #000;
+}
+.start, .process, .results {
+    height: 100%;
+    position: relative;
+    opacity: 0.80;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.start {
+    background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBLlNA2.img?h=1080&w=1920&m=6&q=60&o=f&l=f&x=1679&y=1086');
+}
+.process {
+    color: #fff;  
+    text-align: center;
+}
+.flow {
+    width: 50%;
+    min-height: 30%;
+    text-align: center;
+    float: left;
+}
+.flowchart{
+    max-width: 50%;
+    max-height: 45%;
+    float: left;
+}
+.results {
+    background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_244274.jpg");
+    text-align: center;
+    color:#777;
+}
+.limitations {
+    margin: 0%;
+    color: #777;
+    background-color:black;
+    text-align: center;
+}
+.text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#000;
+}
+.textOne {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    
+}
+.textTwo {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#fff; 
+}
+.textThree {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color:#fff;  
+}
+.border {
+    color: #fff;
+    padding: 18px;
+
+}
+.intro {
+    color: #777;
+    background-color:black;
+    text-align:center;
+    padding:50px 80px;
+}
+.authors {
+    color: #777;
+    background-color:black;
+    text-align: center;
+}
+.resultImage {
+    height: 40%;
+    width: 300px;
+    float: center;
+}
+
+.obama {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
